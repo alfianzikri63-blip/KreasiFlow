@@ -1,8 +1,11 @@
-# KreasiFlow Studio v5.0.4 — Kuota Gambar
+# KreasiFlow Studio v5.0.5
 
-- Mengatasi tampilan error `429 RESOURCE_EXHAUSTED / limit: 0` yang memenuhi layar.
-- Memberikan pesan jelas saat API gambar tidak tersedia di Free Tier.
-- Default 0 gambar untuk project baru (mode hemat), tanpa mengurangi fungsi judul/naskah/narasi/storyboard.
-- Menghentikan loop generate gambar ketika kuota 0 terdeteksi, mempertahankan data yang sudah berhasil dibuat.
-- Menambahkan tombol akses cepat Cek Kuota & Billing API di Chrome.
-- Tidak melewati billing atau menciptakan kuota API baru.
+- OpenRouter (`openrouter/free`): judul AI, naskah, prompt adegan
+- fal.ai FLUX.1 Schnell: gambar AI per scene / 0–5 scene otomatis
+- ElevenLabs Multilingual v2: suara MP3 langsung dari narasi
+- Pengaturan 3 API key terpisah dengan AndroidKeyStore AES/GCM
+- Mempertahankan single-screen, Chrome eksternal, project JSON/SRT dan GitHub updater
+- Konfirmasi sebelum panggilan AI yang berpotensi berbiaya
+- Alur pengujian browser dengan respons simulasi berhasil
+
+**Belum diuji:** kompilasi Android lewat GitHub Actions dan provider API sungguhan.

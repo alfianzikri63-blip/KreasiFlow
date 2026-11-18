@@ -1,6 +1,12 @@
-# KreasiFlow Studio v5.0.7
-- Tombol **Uji koneksi OpenRouter** via endpoint resmi `/api/v1/key` tanpa generasi token.
-- Status lebih jujur: **OpenRouter key tersimpan** (bukan otomatis “aktif”).
-- Perbaikan input key OpenRouter, termasuk normalisasi prefiks `Bearer ` dan penolakan format yang bukan `sk-or-...`.
-- Pesan 401 lebih jelas.
-- Render MP4 Android, fal.ai, ElevenLabs, dan GitHub Releases updater tetap dipertahankan.
+# KreasiFlow Studio v5.0.8
+
+**Bug:** Voice-over ElevenLabs membaca metadata dan arahan produksi karena `extractNarration()` hanya menghapus sebagian tanda kurung siku.
+
+**Perbaikan:**
+- Parser hanya mengambil bagian `Voice Over: "dialog"` untuk naskah bertag VO.
+- Menghapus label bab, arahan musik/SFX, serta catatan verifikasi sebelum teks dikirim ke ElevenLabs.
+- Menyediakan tombol `Bersihkan teks VO` untuk preview hasil di kolom narasi.
+- Menggunakan parser yang sama untuk suara browser dan produksi sampai video.
+- Tetap mempertahankan enkripsi API key, pembaruan dari GitHub Releases, dan render MP4 native.
+
+**Uji:** sintaks JavaScript dan uji parser lokal berhasil. APK Android serta ElevenLabs riil belum diuji.

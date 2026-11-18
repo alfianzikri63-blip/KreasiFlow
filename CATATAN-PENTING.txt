@@ -1,0 +1,13 @@
+KreasiFlow v5.0.19 — Perpustakaan Karakter Tetap
+
+APLIKASI LAMA DIPERTAHANKAN. Ini bukan file APK terkompilasi.
+
+Untuk repository alfianzikri63-blip/KreasiFlow: unggah saja file KreasiFlow-Android-Update-V5-Source.zip ke ROOT repo untuk menggantikan ZIP dengan nama sama, lalu jalankan workflow Test KreasiFlow APK Build from ZIP.
+
+Mode 2D chibi terpisah dari Mode 3D Edukasi. Gambar referensi dari pengguna disediakan sebagai dua JPG agar dapat dipilih di Flow. Untuk video generatif di situs Flow, penempelan prompt, pemilihan Ingredients, Generate dan unduh hasil masih manual.
+
+Perpustakaan karakter lokal bertahan antar proyek, tetapi tidak tersinkron cloud. Ekspor dan cadangkan gambar karakter di perangkat sebelum menghapus APK / mengganti perangkat.
+
+Target 6 scene x 5 detik adalah target editing, bukan jaminan durasi generate Google Flow. Jika Flow menghasilkan 8 detik per klip, lakukan trim dalam editor sebelum final 30 detik.
+
+STATUS UJI: sintaks JavaScript lulus; UI 2D chibi, pemilihan karakter, storyboard 6 scene dan prompt teruji pada Chromium melalui HTML langsung. Penyimpanan IndexedDB lintas restart, build Gradle Android, Google Flow, impor video, dan mux audio Android BELUM diuji di HP.

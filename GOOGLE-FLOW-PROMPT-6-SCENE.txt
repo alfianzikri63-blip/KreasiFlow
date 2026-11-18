@@ -1,0 +1,88 @@
+===== SCENE 1 =====
+GOOGLE FLOW — SCENE 1/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: ASAQ sits happily on the park path, smiling and hugging one oversized golden chocolate-chip cookie. He looks around playfully, then admires the biscuit.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ASAQ: Wah! Biskuit terakhir!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.
+
+===== SCENE 2 =====
+GOOGLE FLOW — SCENE 2/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+ZAYN (Kakak, ±89 cm): Playful, active, curious older brother; visibly taller than ASAQ. Small 2D chibi boy with short brown hair, no hat, giant glossy brown eyes, round cheeks and bright expressions. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. NEVER wears a hat. The same face and hairstyle at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: ZAYN peeks from behind the same tree and spots the cookie, eyes sparkling. ASAQ is seated in the foreground and has not noticed.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ZAYN (pelan): Hehe... ada biskuit!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.
+
+===== SCENE 3 =====
+GOOGLE FLOW — SCENE 3/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+ZAYN (Kakak, ±89 cm): Playful, active, curious older brother; visibly taller than ASAQ. Small 2D chibi boy with short brown hair, no hat, giant glossy brown eyes, round cheeks and bright expressions. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. NEVER wears a hat. The same face and hairstyle at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: ZAYN crouches and carefully reaches toward the cookie with one hand. ASAQ turns and widens his eyes in surprise; keep hand anatomy clean.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ASAQ: Eits! Itu punyaku!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.
+
+===== SCENE 4 =====
+GOOGLE FLOW — SCENE 4/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+ZAYN (Kakak, ±89 cm): Playful, active, curious older brother; visibly taller than ASAQ. Small 2D chibi boy with short brown hair, no hat, giant glossy brown eyes, round cheeks and bright expressions. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. NEVER wears a hat. The same face and hairstyle at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: Both boys sit on the ground, each holding the SAME single cookie from opposite sides. Their little arms tug gently with funny exaggerated facial expressions.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ZAYN: Bagi dong! ASAQ: Nggak mau!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.
+
+===== SCENE 5 =====
+GOOGLE FLOW — SCENE 5/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+ZAYN (Kakak, ±89 cm): Playful, active, curious older brother; visibly taller than ASAQ. Small 2D chibi boy with short brown hair, no hat, giant glossy brown eyes, round cheeks and bright expressions. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. NEVER wears a hat. The same face and hairstyle at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: The SAME intact cookie slips out of their hands and flips upward in a single readable arc. Both boys stare up with shocked, open-mouthed expressions.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ASAQ & ZAYN: Waaa!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.
+
+===== SCENE 6 =====
+GOOGLE FLOW — SCENE 6/6. Episode: Misi Biskuit Terakhir.
+Generate a single vertical 9:16 animated video in the SAME 2D chibi cartoon style as the provided reference sheets. Aim for one clear 5-second story beat within the selected Flow clip length (8 seconds); trim in editing if needed.
+STYLE LOCK: Cute premium 2D chibi animation, faithful to the provided character turnaround sheets. Clean crisp ink outlines, rounded faces, giant glossy expressive eyes, warm pastel blue/cream palette, bright cheerful green park, smooth hand-drawn cel animation, simple consistent proportions, no 3D, no photorealism.
+CONSISTENCY: Match uploaded reference turnarounds for every recurring character. Never swap faces or hats, never make ASAQ taller than ZAYN, keep the striped outfits and shoes consistent. No sudden switch to 3D or realistic style.
+CHARACTERS IN THIS SHOT:
+ASAQ (Adik, ±70 cm): Cheerful, mischievous, creative and brave younger brother. Small 2D chibi boy with dark short hair, big shiny eyes and round cheeks. ALWAYS wears the navy blue bear-face beanie with two pompom ears. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. The same face and hat at every angle.
+ZAYN (Kakak, ±89 cm): Playful, active, curious older brother; visibly taller than ASAQ. Small 2D chibi boy with short brown hair, no hat, giant glossy brown eyes, round cheeks and bright expressions. Brown-and-white striped short-sleeve shirt, brown shorts and cream sneakers. NEVER wears a hat. The same face and hairstyle at every angle.
+PROPS: One oversized round golden chocolate-chip cookie with distinctive dark chocolate chips, same diameter and texture in every shot.
+SETTING: Same sunny family park: green leafy trees, wooden picket fence, short grass, blue sky, warm daylight; keep layout and palette consistent through the episode.
+ACTION: The SAME cookie lands softly on top of ASAQ’s navy bear hat, staying intact. ASAQ freezes wide-eyed while ZAYN laughs beside him. Hold their faces clearly for the ending.
+Only show the characters explicitly named under CHARACTERS IN THIS SHOT; if other characters are mentioned in the action, keep them off-screen.
+SOUND: playful children-cartoon ambience, gentle matching comic foley; spoken Indonesian dialogue with consistent distinct character voices: ZAYN (tertawa): Hahaha!. No external ElevenLabs voice-over is required. Avoid unrelated speech or random songs.
+CAMERA: one smooth readable composition with expressive cartoon acting, stable character scale and costume. No captions, typography, text, logos or watermarks. Use the same reference images as Ingredients in each scene where available. Upload and Generate in Google Flow manually; this prompt does not control Flow.

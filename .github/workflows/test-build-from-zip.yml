@@ -1,0 +1,37 @@
+name: Test KreasiFlow APK Build from ZIP
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'KreasiFlow-Android-Update-V5-Source.zip'
+      - '.github/workflows/test-build-from-zip.yml'
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - uses: gradle/actions/setup-gradle@v4
+        with: {gradle-version: '8.9'}
+      - name: Unzip
+        run: |
+          set -euo pipefail
+          unzip -q KreasiFlow-Android-Update-V5-Source.zip -d src
+          test -f src/KreasiFlow-Studio-Android-Updater-V5/app/build.gradle
+      - name: Build debug (only for smoke test)
+        working-directory: src/KreasiFlow-Studio-Android-Updater-V5
+        env:
+          KREASIFLOW_GITHUB_REPOSITORY: ${{ github.repository }}
+        run: gradle --no-daemon assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Test-Debug-APK-Not-Updateable
+          path: src/KreasiFlow-Studio-Android-Updater-V5/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error

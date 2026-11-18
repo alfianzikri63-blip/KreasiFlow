@@ -1,0 +1,30 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KreasiFlow Studio — Simulasi Tampilan APK Split</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#020704;color:#eafcf2;font-family:system-ui,Arial,sans-serif}
+.wrapper{max-width:460px;min-height:100vh;margin:auto;background:#07150f;display:flex;flex-direction:column;box-shadow:0 0 70px #0008}
+.header{display:flex;justify-content:space-between;align-items:center;height:49px;flex-shrink:0;background:#0b271a;border-bottom:1px solid #1a5837;padding:0 10px;gap:4px}
+.brand{font-size:14px;font-weight:850;color:#89f5bd;letter-spacing:.3px}
+.btn{border:1px solid #306d4b;border-radius:8px;background:#103822;color:#d1f5df;padding:7px 8px;font-weight:700;font-size:10px;cursor:pointer;white-space:nowrap}.btn.selected{background:#52e4a1;color:#072c1b}
+#main{min-height:70px;flex:1 1 0;overflow:hidden}iframe{border:0;width:100%;height:100%;background:#09180e;display:block}
+#divider{height:24px;flex-shrink:0;text-align:center;display:grid;place-items:center;background:#27583c;touch-action:none;cursor:row-resize;font-size:10px;color:#e4ffed;letter-spacing:1px;user-select:none}
+.tools{flex-shrink:0;background:#0d2b1c;border-bottom:1px solid #286447;padding:7px 6px;display:flex;gap:5px;overflow-x:auto}
+.urlrow{display:flex;gap:5px;padding:6px;background:#102a1e;flex-shrink:0}input{width:100%;background:#07180e;border:1px solid #3b855c;border-radius:8px;padding:8px;color:white;font-size:11px;min-width:0}
+#browser{min-height:80px;flex:1 1 0;overflow:hidden;position:relative}.hint{padding:6px 9px;background:#183323;color:#a0c9b0;font-size:10px;line-height:1.5;flex-shrink:0}
+@media(min-width:600px){.wrapper{border-left:4px solid #143b28;border-right:4px solid #143b28}}
+</style></head><body><div class="wrapper" id="wrap">
+<div class="header"><span class="brand">✦ KREASIFLOW</span><button class="btn" onclick="setRatio(.3)">30:70</button><button class="btn selected" onclick="setRatio(.5)">50:50</button><button class="btn" onclick="setRatio(.7)">70:30</button></div>
+<div id="main"><iframe src="app/src/main/assets/index.html" title="KreasiFlow Studio"></iframe></div>
+<div id="divider">━━━━━━　↕ GESER PEMBATAS　━━━━━━</div>
+<div class="tools"><button class="btn" onclick="openAi('https://aistudio.google.com/generate-speech')">🎙 AI Studio</button><button class="btn" onclick="openAi('https://flow.google.com/')">🎬 Google Flow</button><button class="btn" onclick="openAi('https://gemini.google.com/app')">✦ Gemini</button><button class="btn" onclick="document.getElementById('viewer').src='app/src/main/assets/browser-home.html'">⌂ Beranda</button></div>
+<div class="urlrow"><input id="url" type="url" placeholder="https://alamat-ai.com" aria-label="Alamat AI"><button class="btn" onclick="openAi(document.getElementById('url').value)">GO</button><button class="btn" onclick="window.open(known,'_blank','noopener,noreferrer')">↗ Chrome</button></div>
+<div id="browser"><iframe id="viewer" src="app/src/main/assets/browser-home.html" title="Simulasi peramban AI"></iframe></div>
+<div class="hint">Pratinjau layout saja. Google login tidak berjalan dalam iframe/WebView; untuk situs Google gunakan Chrome dan split-screen sistem Android.</div>
+</div><script>
+let ratio=.5,known='https://aistudio.google.com/generate-speech';const main=document.getElementById('main'),browser=document.getElementById('browser');
+function setRatio(v){ratio=Math.min(.75,Math.max(.25,v));main.style.flexGrow=ratio;browser.style.flexGrow=1-ratio;document.querySelectorAll('.header .btn').forEach(btn=>btn.classList.toggle('selected',btn.textContent.trim()==`${Math.round(ratio*100)}:${Math.round((1-ratio)*100)}`))}
+function openAi(url){if(!/^https:\/\/[^\s/]+/i.test(url)){alert('Masukkan URL https:// yang valid');return}known=url;document.getElementById('url').value=url;document.getElementById('viewer').src=url;}
+const grip=document.getElementById('divider');let y=0,start=.5,range=0;
+grip.addEventListener('pointerdown',e=>{y=e.clientY;start=ratio;range=main.clientHeight+browser.clientHeight;grip.setPointerCapture(e.pointerId)});
+grip.addEventListener('pointermove',e=>{if(!grip.hasPointerCapture(e.pointerId)||!range)return;setRatio(start+(e.clientY-y)/range)});
+setRatio(.5);
+</script></body></html>

@@ -1,11 +1,11 @@
-# KreasiFlow Studio v5.0.5
+# KreasiFlow Studio v5.0.6 — API Key Storage Hotfix + Render MP4
 
-- OpenRouter (`openrouter/free`): judul AI, naskah, prompt adegan
-- fal.ai FLUX.1 Schnell: gambar AI per scene / 0–5 scene otomatis
-- ElevenLabs Multilingual v2: suara MP3 langsung dari narasi
-- Pengaturan 3 API key terpisah dengan AndroidKeyStore AES/GCM
-- Mempertahankan single-screen, Chrome eksternal, project JSON/SRT dan GitHub updater
-- Konfirmasi sebelum panggilan AI yang berpotensi berbiaya
-- Alur pengujian browser dengan respons simulasi berhasil
+**Bug fixed:** `Gagal menyimpan: openrouter, fal, elevenlabs` akibat caller-supplied IV pada AndroidKeyStore AES-GCM.
 
-**Belum diuji:** kompilasi Android lewat GitHub Actions dan provider API sungguhan.
+**Keamanan:** Gunakan IV acak dari cipher, tetap Android Keystore + AES-GCM, jangan pernah mengirim API key ke GitHub atau proyek JSON.
+
+**UI:** Saat terjadi kegagalan simpan, modal tetap terbuka, nilai input gagal tidak dibuang, dan kesalahan aman ditampilkan.
+
+**Tetap ada:** OpenRouter, fal.ai, ElevenLabs, editor full screen, pembaruan GitHub Releases, renderer native MP4 yang telah disiapkan sebelumnya.
+
+**Testing:** Pengujian browser mock dan JDK AES-GCM lolos; belum dijalankan build Android di GitHub maupun diuji di HP.

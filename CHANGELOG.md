@@ -1,9 +1,8 @@
-# KreasiFlow Studio v5.0.1 — Android startup hotfix
+# KreasiFlow Studio v5.0.4 — Kuota Gambar
 
-- Harden updater startup and Android 14+ dynamically registered download receiver.
-- Keep editor open when background update setup fails.
-- Graceful recovery UI for embedded browser initialization exceptions.
-- Null-safe WebView state restoration; prevent secondary lifecycle crash.
-- Preserve package id and release signing configuration for in-place upgrades.
-
-This is a preventative hotfix based on source inspection; an on-device crash trace is still needed to confirm the original trigger.
+- Mengatasi tampilan error `429 RESOURCE_EXHAUSTED / limit: 0` yang memenuhi layar.
+- Memberikan pesan jelas saat API gambar tidak tersedia di Free Tier.
+- Default 0 gambar untuk project baru (mode hemat), tanpa mengurangi fungsi judul/naskah/narasi/storyboard.
+- Menghentikan loop generate gambar ketika kuota 0 terdeteksi, mempertahankan data yang sudah berhasil dibuat.
+- Menambahkan tombol akses cepat Cek Kuota & Billing API di Chrome.
+- Tidak melewati billing atau menciptakan kuota API baru.

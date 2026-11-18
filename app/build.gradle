@@ -1,0 +1,25 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'id.kreasiflow.studio'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'id.kreasiflow.studio'
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName '4.0-split'
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+}
